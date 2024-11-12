@@ -1,0 +1,126 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0a0a0a;
+    color: #e2e2e2;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #0a0a0a;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    max-width: 75px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #e2e2e2;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #1db954;
+    text-shadow: 0 0 10px #1db954;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    text-shadow: 0 0 20px #1db954;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 3rem 2rem;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #1db954;
+    margin-bottom: 1.5rem;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 1rem;
+    background-color: #333;
+    border-left: 5px solid #1db954;
+    color: #e2e2e2;
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-weight: bold;
+    color: #1db954;
+}
+
+/* Footer */
+footer {
+    background-color: #0a0a0a;
+    color: #e2e2e2;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 2px solid #1db954;
+}
+
+footer .social-links a {
+    color: #1db954;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #1db954;
+}

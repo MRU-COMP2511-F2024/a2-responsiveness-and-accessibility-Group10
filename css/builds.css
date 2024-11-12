@@ -1,0 +1,110 @@
+/* Build Cards */
+.builds h2 {
+    text-align: center;
+    color: #1db954;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.builds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background-color: #1a1a1a;
+}
+
+.pc-build {
+    width: 300px;
+    padding: 1.5rem;
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pc-build img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.pc-build h3 {
+    font-size: 1.8rem;
+    color: #1db954;
+}
+
+.pc-build p, .pc-build ul {
+    color: #e2e2e2;
+}
+
+.pc-build:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #1db954;
+}
+
+/* Comparison Table */
+.comparison {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.comparison h2 {
+    color: #1db954;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+/* Header Row */
+thead th {
+    background-color: #1db954;
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+/* Merged Rows */
+.table-section-header {
+    text-align: center;
+    font-weight: bold;
+    color: #1db954;
+    padding: 1rem;
+}
+
+.table-section-header:nth-of-type(1) {
+    background-color: #333;
+}
+
+.table-section-header:nth-of-type(2) {
+    background-color: #444;
+}
+
+/* Regular Rows */
+tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #222;
+}
+
+tbody td {
+    padding: 1rem;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #1db954;
+    color: #000;
+}

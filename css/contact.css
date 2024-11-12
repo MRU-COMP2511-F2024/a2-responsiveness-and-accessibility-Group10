@@ -1,0 +1,103 @@
+/* Contact Section */
+.contact {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #1db954;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #1db954;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+form label {
+    font-weight: bold;
+    color: #1db954;
+}
+
+form input, form select, form textarea {
+    padding: 0.7rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #222;
+    color: #e2e2e2;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #1db954;
+    outline: none;
+}
+
+/* Form Fieldset for Radio and Checkbox Options */
+fieldset {
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+legend {
+    color: #1db954;
+    font-weight: bold;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #e2e2e2;
+}
+
+/* Form Buttons */
+form button {
+    padding: 0.8rem;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #16a34a;
+}
+
+form button[type="reset"] {
+    background-color: #444;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+form button[type="reset"]:hover {
+    background-color: #555;
+}
+
+/* Back to Top Link */
+footer a {
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
