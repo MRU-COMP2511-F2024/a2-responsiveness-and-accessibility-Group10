@@ -60,6 +60,7 @@ thead th {
     color: #fff;
 }
 
+
 tbody td {
     padding: 1rem;
     text-align: center;
@@ -67,4 +68,12 @@ tbody td {
 
 tbody tr:nth-child(even) {
     background-color: #333;
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
 }

@@ -7,7 +7,7 @@
 }
 
 .hero img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -41,7 +41,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -62,4 +62,12 @@ cite {
     font-style: normal;
     font-weight: bold;
     color: #1db954;
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
 }
