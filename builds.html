@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom gaming PC builds with detailed specs and performance metrics.">
+    <title>Builds - Gaming PC Store</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/builds.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Gaming PCs">
+        </div>
+        <nav>
+            <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="builds.html">Builds</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <h1>Gaming PC Builds</h1>
+        <section class="builds">
+            <h2>Our Custom Builds</h2>
+            <div class="grid-container">
+                <div class="pc-build">
+                    <img src="images/pc1.jpg" alt="Entry-Level Gaming PC">
+                    <h3>Entry-Level Build</h3>
+                    <p>Processor: AMD Ryzen 5 3600</p>
+                    <p>GPU: NVIDIA GTX 1660</p>
+                    <p>RAM: 16GB DDR4</p>
+                    <p>Storage: 500GB NVMe SSD</p>
+                    <p>Cooling: Stock air cooler</p>
+                    <p>Price: $1,000</p>
+                </div>
+
+                <div class="pc-build">
+                    <img src="images/pc2.jpg" alt="Mid-Range Gaming PC">
+                    <h3>Mid-Range Build</h3>
+                    <p>Processor: Intel i7-11700K</p>
+                    <p>GPU: NVIDIA RTX 3070</p>
+                    <p>RAM: 32GB DDR4</p>
+                    <p>Storage: 1TB NVMe SSD</p>
+                    <p>Cooling: Liquid cooling system</p>
+                    <p>Price: $2,000</p>
+                </div>
+
+                <div class="pc-build">
+                    <img src="images/pc3.jpg" alt="High-End Gaming PC">
+                    <h3>High-End Build</h3>
+                    <p>Processor: Intel i9-12900K</p>
+                    <p>GPU: NVIDIA RTX 4090</p>
+                    <p>RAM: 64GB DDR5</p>
+                    <p>Storage: 2TB NVMe SSD + 4TB HDD</p>
+                    <p>Cooling: Custom liquid cooling system with RGB lighting</p>
+                    <p>Price: $4,000</p>
+                </div>
+
+                <div class="pc-build">
+                    <img src="images/pc4.jpg" alt="Ultimate Gaming PC">
+                    <h3>Ultimate Build</h3>
+                    <p>Processor: AMD Ryzen Threadripper 3970X</p>
+                    <p>GPU: NVIDIA RTX 4090 Ti</p>
+                    <p>RAM: 128GB DDR5</p>
+                    <p>Storage: 4TB NVMe SSD + 8TB HDD</p>
+                    <p>Cooling: Dual-loop custom liquid cooling system</p>
+                    <p>Price: $6,000</p>
+                </div>
+            </div>
+        </section>
+
+       <section class="comparison">
+            <h2 class="builds">Build Comparison</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Entry-Level Build</th>
+                        <th>Mid-Range Build</th>
+                        <th>High-End Build</th>
+                        <th>Ultimate Build</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-section-header">
+                        <td colspan="5">Hardware Specifications</td>
+                    </tr>
+                    <tr>
+                        <td>Processor</td>
+                        <td>AMD Ryzen 5</td>
+                        <td>Intel i7</td>
+                        <td>Intel i9</td>
+                        <td>Amd Threadripper</td>
+                    </tr>
+                    <tr>
+                        <td>GPU</td>
+                        <td>NVIDIA GTX 1660</td>
+                        <td>NVIDIA RTX 3070</td>
+                        <td>NVIDIA RTX 4090</td>
+                        <td>NVIDIA RTX 4090Ti</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>16GB DDR4</td>
+                        <td>32GB DDR4</td>
+                        <td>64GB DDR5</td>
+                        <td>128GB DDR5</td>
+                    </tr>
+        
+                    <tr class="table-section-header">
+                        <td colspan="5">Storage & Cooling</td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td>500GB NVMe SSD</td>
+                        <td>1TB NVMe SSD</td>
+                        <td>2TB NVMe SSD + 4TB HDD</td>
+                        <td>Dual 4TB NVMe SSD</td>
+                    </tr>
+                    <tr>
+                        <td>Cooling</td>
+                        <td>Air Cooler</td>
+                        <td>Liquid Cooler</td>
+                        <td>Custom Liquid Cooling</td>
+                        <td>Custom Liquid Cooling</td>
+                    </tr>
+        
+                    <tr>
+                        <td>Price</td>
+                        <td>$1,000</td>
+                        <td>$2,000</td>
+                        <td>$4,000</td>
+                        <td>$6,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gaming PC Store | All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://x.com/?lang=en">Twitter</a> | <a href="https://www.facebook.com/">Facebook</a> | <a href="https://www.instagram.com/">Instagram</a>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuToggle = document.getElementById('menu-toggle');
+            const menu = document.getElementById('menu');
+
+            menuToggle.addEventListener('click', () => {
+                menu.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
